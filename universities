@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner Universities | RusEntry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+        .university-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="gradient-bg text-white shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <i data-feather="book" class="w-8 h-8"></i>
+                    <span class="text-xl font-bold">RusEntry</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="hover:text-blue-200">Home</a>
+                    <a href="#" class="hover:text-blue-200">About</a>
+                    <a href="#contact-section" class="hover:text-blue-200">Contact</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i data-feather="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Universities Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <h1 class="text-3xl md:text-4xl font-bold text-center mb-4" data-aos="fade-down">Our Partner Universities</h1>
+            <p class="text-lg text-gray-600 text-center mb-12 max-w-2xl mx-auto" data-aos="fade-down" data-aos-delay="200">
+                We work with top universities across Russia to provide quality education for international students
+            </p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- University 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden university-card transition duration-300" data-aos="fade-up">
+                    <img src="http://static.photos/education/640x360/1" alt="Belgorod State University" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2"><a href="https://bsuedu.ru/en/" target="_blank" class="hover:text-blue-900">Belgorod State University</a></h3>
+                        <p class="text-gray-600 mb-4">One of Russia's leading classical universities with strong programs in Medicine and Engineering.</p>
+                        <div class="flex items-center text-blue-900">
+                            <i data-feather="map-pin" class="w-4 h-4 mr-2"></i>
+                            <span>Belgorod, Russia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- University 1b -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden university-card transition duration-300" data-aos="fade-up">
+                    <img src="http://static.photos/education/640x360/7" alt="Belgorod State Technical University" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2"><a href="https://www.bstu.ru/index" target="_blank" class="hover:text-blue-900">Belgorod State Technical University</a></h3>
+                        <p class="text-gray-600 mb-4">Leading technical university with strong engineering and technology programs.</p>
+                        <div class="flex items-center text-blue-900">
+                            <i data-feather="map-pin" class="w-4 h-4 mr-2"></i>
+                            <span>Belgorod, Russia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- University 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden university-card transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/education/640x360/2" alt="Penza State University" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2"><a href="https://international.pnzgu.ru/" target="_blank" class="hover:text-blue-900">Penza State University</a></h3>
+                        <p class="text-gray-600 mb-4">Known for excellent technical education and research facilities.</p>
+                        <div class="flex items-center text-blue-900">
+                            <i data-feather="map-pin" class="w-4 h-4 mr-2"></i>
+                            <span>Penza, Russia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- University 3 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden university-card transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/education/640x360/3" alt="Samara Medical University" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2"><a href="https://en.samsmu.ru/" target="_blank" class="hover:text-blue-900">Samara Medical University</a></h3>
+                        <p class="text-gray-600 mb-4">Premier medical university with strong programs in medicine and healthcare.</p>
+                        <div class="flex items-center text-blue-900">
+                            <i data-feather="map-pin" class="w-4 h-4 mr-2"></i>
+                            <span>Samara, Russia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- University 5 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden university-card transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/education/640x360/5" alt="St. Petersburg State University" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2"><a href="https://spbu.ru/" target="_blank" class="hover:text-blue-900">St. Petersburg State University</a></h3>
+                        <p class="text-gray-600 mb-4">Russia's oldest university with world-class reputation in various disciplines.</p>
+                        <div class="flex items-center text-blue-900">
+                            <i data-feather="map-pin" class="w-4 h-4 mr-2"></i>
+                            <span>Saint Petersburg, Russia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- University 6 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden university-card transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/education/640x360/6" alt="Other Universities" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Other Partner Universities</h3>
+                        <p class="text-gray-600 mb-4">We also work with many other reputable universities across Russia. Contact us for more options.</p>
+                        <div class="flex items-center text-blue-900">
+                            <i data-feather="info" class="w-4 h-4 mr-2"></i>
+                            <span>Multiple locations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div id="contact-section">
+                    <h3 class="text-xl font-bold mb-4">Russian Student Registry</h3>
+                    <p class="mb-4">Connecting international students with Russian educational opportunities.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-blue-200"><i data-feather="facebook"></i></a>
+                        <a href="https://instagram.com/rusentry" class="hover:text-blue-200"><i data-feather="instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-blue-200">Home</a></li>
+                        <li><a href="index.html#registrationForm" class="hover:text-blue-200">Registration</a></li>
+                        <li><a href="universities.html" class="hover:text-blue-200">Universities</a></li>
+                        <li><a href="#" class="hover:text-blue-200">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-200">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-blue-200">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-blue-200">Data Protection</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><i data-feather="mail" class="mr-2 w-4 h-4"></i> korssoul.work@gmail.com</li>
+                        <li class="flex items-center"><i data-feather="phone" class="mr-2 w-4 h-4"></i> +7 (995) 138-04-93</li>
+                        <li class="flex items-center"><i data-feather="phone" class="mr-2 w-4 h-4"></i> +7 (961) 199-34-15</li>
+                        <li class="flex items-center"><i data-feather="map-pin" class="mr-2 w-4 h-4"></i> Moscow, Russia</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-blue-800 mt-12 pt-8 text-center">
+                <p>&copy; 2023 RusEntry. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        
+        feather.replace();
+    </script>
+</body>
+</html>
